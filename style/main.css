@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 960px;
+  padding: 5px 0 0;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.header-top >div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header-slogan {
+  color: #bbbbbb;
+  font-size: 14px;
+  line-height: 33px;
+  font-weight: 700;
+  border-left: 2px dotted #bbb;
+  padding: 5px 30px;
+  margin: 2px 168px 0 23px;
+}
+
+.header-log {
+  padding: 5px;
+}
+
+.header-log a {
+  color: #bbbbbb;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 33px;
+}
+
+.header-menu {
+  margin: 37px 0 35px;
+}
+
+.header-menu__list li {
+  display: inline-block;
+  width: 131px;
+}
+
+.header-menu__list a {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 33px;
+  text-decoration: none;
+  color: #666;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-image: linear-gradient(#f4f4f4, #d7d7d7);
+}
+
+.active-item a {
+  background: #3366cc;
+  color: #fff;
+}
+
+
+/*banner*/
+
+.banner>div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.banner-picture {
+  width: 65%;
+  margin-right: 12px;
+  position: relative;
+}
+
+.banner-currency {
+  width: 31.5%;
+  height: 375px;
+  background-image: linear-gradient(#000 0%, rgba(0, 0, 0, 0) 20%), url(../images/world-currency.jpg);
+}
+
+.banner-title {
+  width: 28.3%;
+  position: absolute;
+  top: 25px;
+  right: 41px;
+  color: #fff;
+  font: 800 30px/39px 'Open Sans', sans-serif;
+  padding-top: 10px;
+}
+
+.currency-title {
+  text-align: center;
+  font: 800 24px 'Open Sans', sans-serif;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.currency-exchange {
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 33px 0 0 20px;
+}
+
+.currency-exchange td {
+  border-collapse: collapse;
+  padding: 0 25px;
+  border: 1px solid #45b0fe;
+  box-sizing: border-box;
+}
+
+.currency-exchange tr:first-child td {
+  border-top: none;
+}
+
+.currency-exchange tr:last-child td {
+  border-bottom: none;
+}
+
+
+/*info*/
+
+.information {
+  padding: 20px 0 7px;
+}
+
+.information>div {
+  display: inline-block;
+  vertical-align: top;
+  width: 299px;
+}
+
+.news {
+  margin: 0 15px;
+}
+
+.information-title {
+  font-size: 18px;
+  line-height: 33px;
+  color: #333;
+  padding-left: 2px;
+  border-bottom: 1px solid #333;
+}
+
+.information__list {
+  font-size: 12px;
+  line-height: 16px;
+  color: #111;
+}
+
+.information__list li {
+  margin: 22px 0;
+}
+
+.information__list--stquare li::before,
+.information__list--percent li:first-child::before {
+  content: ' ';
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 5px;
+  float: left;
+  margin-right: 5px;
+}
+
+.information__list--percent li:first-child::before {
+  content: '1.2';
+  background-color: #3366cc;
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.more {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666;
+  padding: 5px 15px;
+  border-radius: 3px;
+  background-image: linear-gradient(#f4f4f4, #d7d7d7);
+  margin-bottom: 8px;
+}
+
+.main-footer {
+  padding: 32px 0;
+  border-top: 5px solid #000;
+  background-color: #eee;
+}
+
+.container--footer {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  ;
+}
+
+.footer-list li {
+  display: inline-block;
+  margin-right: 27px;
+}
+
+.footer-list a {
+  font-size: 12px;
+  color: #111;
+}
